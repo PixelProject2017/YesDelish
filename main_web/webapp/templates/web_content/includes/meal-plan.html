@@ -1,4 +1,29 @@
 {% load staticfiles %}
-<div>
-Hello world
+<div class="meal">
+    <h2 id="meal-title">MEAL PLANS</h2>
+    <div class="row" id="meal-row">
+
+	   	<div class="col-sm-6 ">
+
+    		<img class="meal-img" src="{% static 'image/meal-pic.png' %}">
+	        <h3> Classic </h3>
+	        <p> $10.50/meal </p>
+	        <p> Number of meals </p>
+	        <p> Meal per week </p>
+    	</div>
+	    <div class="col-sm-6">
+	    	<img class="meal-img" src="{% static 'image/meal-pic.png' %}">
+	        <h3> Vegan </h3>
+	        <p> $9.50/meal </p>
+	        <p> Number of meals </p>
+	        <p> Meal per week </p>
+	    </div>
+	</div>
+	<p> Shipping: Free </p>
+	<p> Total: $00.00 </p>
+	<button type="button" class="btn btn-warning"> CHECK OUT </button>
 </div>
+
+<br/>
+
+<img src="{% static 'image/divider.png' %}" class="divider3">
