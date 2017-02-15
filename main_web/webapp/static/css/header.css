@@ -34,6 +34,10 @@
      float: left;
 }
 
+.open > .dropdown-custom {
+     background-color: #691e06;
+}
+
 .dropdown-menu2 {
      background-color: #251812;
      min-width: 1000px;
