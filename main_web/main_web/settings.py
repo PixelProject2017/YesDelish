@@ -127,3 +127,6 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
+# Allow all host headers
+ALLOWED_HOSTS = ['*']
+

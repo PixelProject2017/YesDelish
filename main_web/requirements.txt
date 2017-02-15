@@ -1,4 +1,8 @@
 appdirs==1.4.0
+gunicorn==19.6.0
 packaging==16.8
 pyparsing==2.1.10
 six==1.10.0
+virtualenv==15.1.0
+Django==1.11a1
+whitenoise==3.3.0
